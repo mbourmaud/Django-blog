@@ -1,0 +1,63 @@
+.header-menu {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+    background-color: white;
+}
+
+.header-item {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1.8em;
+}
+
+.header-item > a {
+    color:purple;
+    opacity: 1;
+}
+
+.header-item:hover > a {
+    color:purple;
+    opacity: 0.8;
+}
+
+.post-block {
+    border-left:3px solid purple;
+
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+    background-color: white;
+
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.post-content {
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.post-title {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 22px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.post-footer {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-style: italic;
+}
+
+body {
+    background-color: #f1f1f1;
+}
